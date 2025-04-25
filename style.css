@@ -1,0 +1,98 @@
+:root{
+    --primary-color:#F5CF06;
+    --secondy-color: #8e4106;
+    --default-padding: 0 80px;
+    --terciary-color: #
+}
+*{
+    padding: 0;
+    box-sizing: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ul,ol,li{
+    list-style: none;
+}
+body{
+    font-family: "Righteous", sans-serif;
+    background-color: var(--primary-color);
+}
+header{
+    color: var(--secondy-color);
+    display: flex;
+    align-items: center;
+    padding: var(--default-padding);
+    gap: 25px;
+    height: 150px;
+    width: 100%;
+}
+main{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 700px;
+}
+main h1{
+    color: white;
+    justify-content: center;
+    top: 80px;
+    position: absolute;
+    z-index: -2;
+    opacity: 20%;
+    font-size: 395px;
+}
+main h2{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: -1;
+    font-size: 287px;
+    top: 272px;
+}
+main img{
+    align-items: flex-end;
+    position: absolute;
+    top: 290px;
+    right: px;
+}
+.conteiner-slogan{
+    padding: 0 80px;
+    color: var(--secondy-color);
+    position: absolute;
+    align-items: flex-end;
+    top: 635px;
+    left: 8px;
+}
+.conteiner-slogan .slogan{
+    font-size: 62px;
+}
+.conteiner-slogan .text{
+    font-size: 20px;
+}
+.download{
+    background-color: var(--secondy-color);
+    width: 411px;
+    height: 100px;
+    position: absolute;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-size: 48px;
+    gap: 40px;
+    right: 40px;
+    bottom: 116px;
+}
+footer{
+    align-items: center;
+    width: 100%;
+}
+footer p{
+    display: flex;
+    justify-content: center;
+    color: var(--secondy-color);
+}
